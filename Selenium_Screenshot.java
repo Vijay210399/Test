@@ -15,7 +15,7 @@ public class Screenshot {
     public static void main(String[] args) throws IOException {
 
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.amazon.in/");
+        driver.get("https://corsera.com/lander");
 
         TakesScreenshot ss = (TakesScreenshot) driver;
         File source = ss.getScreenshotAs(OutputType.FILE);
